@@ -15,9 +15,21 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body id="page-top">
+    <body id="page-top" onload="myFunction()" style="margin:0;">
+        <!-- Splash Screen-->
+        <!--
+        <div id="splashscreen">
+            <h2>Welcome !</h2>
+            Take a look at our new products, blablabla
+            <img src="http://i.telegraph.co.uk/multimedia/archive/02182/kitten_2182000b.jpg" />
+            <a href="#" class="enter_link">Enter on the website</a>
+        </div>
+        -->
+
+        <div id="loader"></div>
+
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top animate-bottom-nav" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Yordan Musa</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/yrdn.jpg" alt="Yordan" /></span>
@@ -35,7 +47,7 @@
             </div>
         </nav>
         <!-- Page Content-->
-        <div class="container-fluid p-0">
+        <div class="container-fluid p-0 animate-bottom" style="display:none;" id="myDiv">
             <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
@@ -53,10 +65,10 @@
                         stakeholders. A generalist, craving for learn, a melancholic and peculiar humorous
                         style.</p>
                     <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/yordanmusa/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/ymh3103"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="https://instagram.com/ymh3103"><i class="fab fa-instagram"></i></a>
-                        <a class="social-icon" href="https://wa.wizard.id/fe14bd"><i class="fab fa-whatsapp"></i></a>
+                        <a class="social-icon-linkedin" href="https://www.linkedin.com/in/yordanmusa/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon-github" href="https://github.com/ymh3103"><i class="fab fa-github"></i></a>
+                        <a class="social-icon-ig" href="https://instagram.com/ymh3103"><i class="fab fa-instagram"></i></a>
+                        <a class="social-icon-wa" href="https://wa.wizard.id/fe14bd"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </section>
