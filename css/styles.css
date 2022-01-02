@@ -11493,8 +11493,9 @@ section.resume-section .resume-section-content {
 
 /* Center the loader */
 #loader {
-padding: 0;
-margin: 0;
+  margin: 0;
+  padding: 0;
+  border; 0;
 }
 
 @-webkit-keyframes spin {
