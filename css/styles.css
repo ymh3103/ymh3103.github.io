@@ -11493,8 +11493,8 @@ section.resume-section .resume-section-content {
 
 /* Center the loader */
 #loader {
-  margin: 0;
-  padding: 0;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
   border; 0;
 }
 
